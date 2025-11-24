@@ -32,11 +32,12 @@ A demo **accent-aware cuisine recommendation application** is also included.
 ## 📂 Repository Structure
 ├── app.py
 ├── notebooks/
-│   ├── HuBERT_Feature_Extraction_and_Model.ipynb
-│   ├── MFCC_vs_HuBERT_Comparison.ipynb
+│   ├── 01_HuBERT_Feature_Extraction.ipynb
+│   ├── 02_HuBERT_Classification.ipynb
 │   ├── Cross_Age_Generalization.ipynb
 │   ├── HuBERT_Layerwise_Analysis.ipynb
 │   ├── Linguistic_Level_Generalization.ipynb
+|   |--MFCC_vs_HuBERT_Comparison.ipynb
 ├── models/
 ├── data/
 ├── images/
@@ -105,8 +106,8 @@ drive.mount('/content/drive')
 
 !pip install -r requirements.txt
 Open and run the notebooks in the /notebooks/ folder.
+---
 
-⸻
 
 💻 Running Locally
 
@@ -123,7 +124,7 @@ streamlit run app.py
 	•	Acoustic cues like vowel formation, consonant articulation, and prosody help identify native language
 	•	HuBERT effectively encodes deep contextual accent features
 
-⸻
+---
 
 🔮 Future Work
 	•	Expand dataset to more Indian languages
@@ -131,10 +132,9 @@ streamlit run app.py
 	•	Real-time microphone input & mobile deployment
 	•	Multi-language UI support
 
-⸻
+---
 
 👩‍💻 Team Members
-Name:Role
 Nandana Biju:Research & Experimentation
 Navomy Mariya Alex:Model Training & App Development
 Sulfa Saji:Feature Engineering & Analysis

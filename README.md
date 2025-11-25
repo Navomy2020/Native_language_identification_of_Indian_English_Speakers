@@ -32,7 +32,7 @@ A demo **accent-aware cuisine recommendation application** is also included.
 ## 📂 Repository Structure
 ├── app.py
 ├── notebooks/
-│   ├── 01_HuBERT_Feature_Extraction.ipynb
+│   ├─ 01_HuBERT_Feature_Extraction.ipynb
 │   ├── 02_HuBERT_Classification.ipynb
 │   ├── Cross_Age_Generalization.ipynb
 │   ├── HuBERT_Layerwise_Analysis.ipynb

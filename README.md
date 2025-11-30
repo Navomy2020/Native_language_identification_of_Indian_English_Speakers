@@ -99,17 +99,18 @@ Predicts accent → Infers region → Suggests traditional dishes
 
 ---
 
-## 🧪 Running the Project in Google Colab
+# 🧪 Running the Project in Google Colab
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
 
 !pip install -r requirements.txt
 Open and run the notebooks in the /notebooks/ folder.
+```
+
+
 ---
-
-
-💻 Running Locally
+## 💻 Running Locally
 
 Step 1 — Clone the Repository
 
@@ -126,19 +127,20 @@ streamlit run app.py
 
 ---
 
-🔮 Future Work
-	•	Expand dataset to more Indian languages
-	•	Improve performance for children’s speech
-	•	Real-time microphone input & mobile deployment
-	•	Multi-language UI support
+# 🔮 Future Work
+* Expand dataset to more Indian languages
+* Improve performance for children’s speech
+* Real-time microphone input & mobile deployment
+* Multi-language UI support
 
 ---
 
-👩‍💻 Team Members
-Nandana Biju:Research & Experimentation
-Navomy Mariya Alex:Model Training & App Development
-Sulfa Saji:Feature Engineering & Analysis
+# 👩‍💻 Team Members
+
+* **Nandana Biju** :Research & Experimentation
+* **Navomy Mariya Alex** :Model Training & App Development
+* **Sulfa Saji** :Feature Engineering & Analysis
 ----- 
-📄 License
+# 📄 License
 
 For academic and research purposes only.

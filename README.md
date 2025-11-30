@@ -31,18 +31,31 @@ A demo **accent-aware cuisine recommendation application** is also included.
 
 ## 📂 Repository Structure
 ├── app.py
+
 ├── notebooks/
-│   ├─ 01_HuBERT_Feature_Extraction.ipynb
-│   ├── 02_HuBERT_Classification.ipynb
-│   ├── Cross_Age_Generalization.ipynb
-│   ├── HuBERT_Layerwise_Analysis.ipynb
-│   ├── Linguistic_Level_Generalization.ipynb
-|   |--MFCC_vs_HuBERT_Comparison.ipynb
+
+   ├── 01_HuBERT_Feature_Extraction.ipynb
+  
+   ├── 02_HuBERT_Classification.ipynb
+  
+   ├── Cross_Age_Generalization.ipynb
+  
+   ├── HuBERT_Layerwise_Analysis.ipynb
+  
+   ├── Linguistic_Level_Generalization.ipynb
+  
+   └── MFCC_vs_HuBERT_Comparison.ipynb
+  
 ├── models/
+
 ├── data/
+
 ├── images/
+
 ├── docs/
+
 ├── requirements.txt
+
 └── README.md
 ---
 
@@ -115,15 +128,19 @@ Open and run the notebooks in the /notebooks/ folder.
 Step 1 — Clone the Repository
 
 git clone https://github.com/Navomy2020/Native-language-identification-of-Indian-english-speakers1.git
+
 cd Native-language-identification-of-Indian-english-speakers1
+
 Step 2 — Install Dependencies
 pip install -r requirements.txt
+
 Step 3 — Run the Streamlit Application
 streamlit run app.py
-📄 Conceptual Background
-	•	An accent reflects pronunciation patterns influenced by a speaker’s native language (L1)
-	•	Acoustic cues like vowel formation, consonant articulation, and prosody help identify native language
-	•	HuBERT effectively encodes deep contextual accent features
+
+# 📄 Conceptual Background
+* An accent reflects pronunciation patterns influenced by a speaker’s native language (L1)
+* Acoustic cues like vowel formation, consonant articulation, and prosody help identify native language
+* HuBERT effectively encodes deep contextual accent features
 
 ---
 

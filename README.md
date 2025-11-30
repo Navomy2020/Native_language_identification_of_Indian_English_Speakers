@@ -34,17 +34,17 @@ A demo **accent-aware cuisine recommendation application** is also included.
 
 ├── notebooks/
 
-   ├── 01_HuBERT_Feature_Extraction.ipynb
+| ├── 01_HuBERT_Feature_Extraction.ipynb
   
-   ├── 02_HuBERT_Classification.ipynb
+| ├── 02_HuBERT_Classification.ipynb
   
-   ├── Cross_Age_Generalization.ipynb
+| ├── Cross_Age_Generalization.ipynb
   
-   ├── HuBERT_Layerwise_Analysis.ipynb
+| ├── HuBERT_Layerwise_Analysis.ipynb
   
-   ├── Linguistic_Level_Generalization.ipynb
+| ├── Linguistic_Level_Generalization.ipynb
   
-   └── MFCC_vs_HuBERT_Comparison.ipynb
+| └── MFCC_vs_HuBERT_Comparison.ipynb
   
 ├── models/
 
